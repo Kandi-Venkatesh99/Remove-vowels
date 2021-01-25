@@ -1,0 +1,11 @@
+a=str(input("enter your input "))
+
+vo=["a","e","i","o","u"]
+
+new=[]
+
+for i in a:
+    if i not in vo:
+        new.append(i)
+        
+print("output is ",new)
